@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CallbackTest {
     @Test
     public void shouldSendFormSuccess() {
-        open("http://localhost:9999/");
+        open("http://localhost:7777/");
         SelenideElement form = $(".form");
         form.$("[data-test-id=name] input").setValue("Екатерина Великая");
         form.$("[data-test-id=phone] input").setValue("+79998887654");
